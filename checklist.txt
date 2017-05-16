@@ -1,0 +1,40 @@
+	**************************
+	** CHECKLIST FOR BATTLE **
+	**************************
+
+-HOD Dashboard
+-HOD can suspend students account
+-Parent dashboard (for me)
+
+-Better UI (DONE)
+-Late mark (DONE)
+-Password change (DONE)
+
+-Notice's (assignment) mail
+
+-Journal page
+
+-Save dates of every move
+
+-Email verification 
+	-don't allow to login until verification done
+	-6 digit code
+	-randomly generated and checked for exsisting
+	-see tutorials
+
+-phone verification
+	-sms api (nikya)
+
+-PHP security
+	-escape string
+	-try to get ip and mac
+	-session time
+	-files validation - only zip allowed for assignment
+
+-Discussion forum API
+	-disqus sso
+	-or apply normal disqus (Later see about sso)
+
+-online compiler
+	-jdoodle
+	-

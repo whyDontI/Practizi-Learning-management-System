@@ -1,0 +1,125 @@
+body{
+  font-size: 100%;
+  }/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.button-google {
+    color: white !important;
+    background: #dd4b39 !important;
+}
+
+.connect-btn {
+    height: auto !important;
+    min-width: 140px !important;
+    padding: 10px 40px !important;
+    margin: 10px 10px !important;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.page-footer{
+    position: relative !important;
+    width: 100% !important;
+    bottom: 0 !important;
+}
+
+.stud .tech{
+  width: 50%;
+}
+
+.ilike-blue-container {
+    @extend .blue, .lighten-4;
+  }
+  
+.mobile_h1{
+      font-size: 49px;
+    }
+
+@media only screen and (max-width: 800px) {
+    .mobile_h1{
+      font-size: 10px;
+    }
+}
+
+/*for compiler*/
+
+#my-div
+{
+    width    : 1000px;
+    height   : 600px;
+    overflow : hidden;
+    position : relative;
+    border: 5px solid red;
+}
+
+#my-iframe
+{
+    position : absolute;
+    top      : -100px;
+    left     : -200px;
+    width    : 1280px;
+    height   : 1200px;
+}
+
+/*for compiler ends*/
+
+#__fgtbar_container_0{
+  display: none !important;
+}
+
+.original-position{
+  dislpay: none !important; 
+}
